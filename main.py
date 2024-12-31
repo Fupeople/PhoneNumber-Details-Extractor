@@ -36,7 +36,7 @@ print("Please enter the phone number below:")
 phone_number = input("Enter the phone number: ")
 
 try:
-    number = phonenumbers.parse(phone_number, None)
+    number =+17406166097 phonenumbers.parse(phone_number, None)
     country_code = phonenumbers.region_code_for_number(number)
     location = geocoder.description_for_number(number, "en")
     carrier_name = carrier.name_for_number(number, "en") if carrier.name_for_number(number, "en") else "Unknown Carrier"
